@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamster Kit Free Keys</title>
+    <title>Hamster Kit Key Genartor</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -52,7 +52,7 @@
             <label for="keyCountSelect" style="font-size: 12px;">Select Number of Keys:</label>
             <div id="keyCountSelect" class="key-slider">
                 <input type="range" min="1" max="12" value="1" id="keyRange">
-                <span id="keyValue" style="font-size: 10px;">1</span>
+                <span id="keyValue" style="font-size: 12px;">1</span>
             </div>
         </div>
         <button id="startBtn" class="hidden">✨Generate Keys✨</button>
@@ -66,17 +66,18 @@
         </div>
 
         <div id="keyContainer" class="hidden">
-            <h2 id="generatedKeysTitle" class="hidden">Generated Keys</h2>
+            <h2 id="generatedKeysTitle" class="hidden">Generated Keys </h2>
             <div id="keysList"></div>
             <button id="copyAllBtn" class="hidden">Copy All Keys</button>
         </div>
 
+        <p id="keyCountLabel">Number of keys:</p>
 
         <button id="generateMoreBtn" class="hidden">Generate More Keys</button>
         <p id="copyStatus" class="hidden">Keys copied to clipboard!</p>
         
         <div class="footer">
-            <p>OWNER: This tool is for educational purposes | USE IT RESPONSIBLY</p>
+            <p>OWNER: This tool is for educational purposes | USE IT RESPONSIBLY "@ZemenCrypto"</p>
             <button onclick="document.location='https://telegram.me/zemencrypto'">TELEGRAM CHANNEL👽</button>
             <button onclick="document.location='https://telegram.me/zemenx'">DEVELOPER ☠</button>
         </div>
