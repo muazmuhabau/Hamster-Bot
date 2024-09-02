@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamster Kit Key Genartor</title>
+    <title>Hamster Key Generator</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>Hamster Keys Generator</h1>
-        <div id="gameSelectContainer" class="grid-container">
-          <div class="game-option" data-game="9">
-            <img src="https://cdn.hamsterkombat.io/zoopolis/image.webp" alt="Polysphere">
+        <h1>Hamster Key Generator</h1>
+     <div id="gameSelectContainer" class="grid-container">
+            <div class="game-option" data-game="12">
+            <img src="https://cdn.hamsterkombat.io/gangs_wars/image.webp" alt="Zoopolis"">
+            <p>Gangs Wars</p>
+            </div>
+            <div class="game-option" data-game="11">
+            <img src="https://cdn.hamsterkombat.io/zoopolis/image.webp" alt="Zoopolis"">
             <p>Zoopolis</p>
+            </div>
+            <div class="game-option" data-game="10">
+            <img src="https://cdn.hamsterkombat.io/cafe_dash/image.webp" alt="CafeDash"">
+            <p>Cafe Dash</p>
+            </div>
+            <div class="game-option" data-game="9">
+            <img src="https://cdn.hamsterkombat.io/mud_racing/image.webp" alt="Polysphere">
+            <p>Mud Racing</p>
             </div>
             <div class="game-option" data-game="8">
             <img src="https://cdn.hamsterkombat.io/mow_trim/image.webp" alt="Polysphere">
@@ -31,32 +43,24 @@
                 <img src="https://cdn.hamsterkombat.io/merge_away/image.webp" alt="Merge Away">
                 <p>Merge Away</p>
             </div>
-            <div class="game-option" data-game="3">
-                <img src="https://cdn.hamsterkombat.io/gangs_wars/image.webp" alt="My Clone Army">
-                <p>Gangs War</p>
-            </div>
             <div class="game-option" data-game="2">
-                <img src="https://cdn.hamsterkombat.io/cafe_dash/image.webp" alt="Chain Cube 2048">
-                <p>Cafe Dash</p>
+                <img src="https://cdn.hamsterkombat.io/chain_cube/image.webp" alt="Chain Cube 2048">
+                <p>Chain Cube 2048</p>
             </div>
             <div class="game-option" data-game="4">
                 <img src="https://cdn.hamsterkombat.io/train_miner/image.webp" alt="Train Miner">
                 <p>Train Miner</p>
             </div>
-            <div class="game-option" data-game="1">
-                <img src="https://cdn.hamsterkombat.io/bikeride/image.webp" alt="Bike Ride 3D">
-                <p>Bike Ride 3D</p>
-            </div>
-        </div>
+      </div>
 
         <div class="form-group hidden" id="keyCountGroup">
-            <label for="keyCountSelect" style="font-size: 12px;">Select Number of Keys:</label>
+            <label for="keyCountSelect">Select Number of Keys:</label>
             <div id="keyCountSelect" class="key-slider">
                 <input type="range" min="1" max="12" value="1" id="keyRange">
-                <span id="keyValue" style="font-size: 12px;">1</span>
+                <span id="keyValue">1</span>
             </div>
         </div>
-        <button id="startBtn" class="hidden">✨Generate Keys✨</button>
+        <button id="startBtn" class="hidden">Generate Keys</button>
 
         <div id="progressContainer" class="hidden">
             <div class="progress-bar">
@@ -67,7 +71,7 @@
         </div>
 
         <div id="keyContainer" class="hidden">
-            <h2 id="generatedKeysTitle" class="hidden">Generated Keys </h2>
+            <h2 id="generatedKeysTitle" class="hidden">Generated Keys</h2>
             <div id="keysList"></div>
             <button id="copyAllBtn" class="hidden">Copy All Keys</button>
         </div>
@@ -78,8 +82,8 @@
         <p id="copyStatus" class="hidden">Keys copied to clipboard!</p>
         
         <div class="footer">
-            <p>OWNER: This tool is for educational purposes | USE IT RESPONSIBLY "@ZemenCrypto"</p>
-            <button onclick="document.location='https://telegram.me/hamster_kit'">TELEGRAM CHANNEL👽</button>
+            <p>OWNER: This tool is for educational purposes | USE IT RESPONSIBLY</p>
+            <button onclick="document.location='https://telegram.me/zemencrypto'">TELEGRAM CHANNEL👽</button>
             <button onclick="document.location='https://telegram.me/zemenx'">DEVELOPER ☠</button>
         </div>
     </div>
