@@ -8,16 +8,16 @@ document.addEventListener('DOMContentLoaded', () => {
             attempts: 25,
         },
         2: {
-            name: 'Cafe Dash',
-            appToken: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11",
-            promoId: "bc0971b8-04df-4e72-8a3e-ec4dc663cd11",
+            name: 'Chain Cube 2048',
+            appToken: 'd1690a07-3780-4068-810f-9b5bbf2931b2',
+            promoId: 'b4170868-cef0-424f-8eb9-be0622e8e8e3',
             timing: 30000, // 30 seconds
             attempts: 20,
         },
         3: {
-            name: 'Gangs War',
-            appToken: "b6de60a0-e030-48bb-a551-548372493523",
-            promoId: "c7821fa7-6632-482c-9635-2bd5798585f9",
+            name: 'My Clone Army',
+            appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
+            promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
             timing: 180000, // 180 seconds
             attempts: 30,
         },
@@ -57,11 +57,32 @@ document.addEventListener('DOMContentLoaded', () => {
             attempts: 20,
         },
         9: {
-            name: 'Zoopolis',
-            appToken: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
-            promoId: "b2436c89-e0aa-4aed-8046-9b0515e1c46b",
+            name: 'Mud Racing',
+            appToken: '8814a785-97fb-4177-9193-ca4180ff9da8',
+            promoId: '8814a785-97fb-4177-9193-ca4180ff9da8',
             timing: 20000, // 20 seconds
             attempts: 20,
+        },
+        10: {
+            name: 'Cafe Dash',
+            appToken: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            promoId: 'bc0971b8-04df-4e72-8a3e-ec4dc663cd11',
+            timing: 20000, // 20 seconds
+            attempts: 20,
+        },
+        11: {
+            name: 'Zoopolis',
+            appToken: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
+            promoId: 'b2436c89-e0aa-4aed-8046-9b0515e1c46b',
+            timing: 20000, // 20 seconds
+            attempts: 20,
+        },
+        12: {
+            name: 'Gangs Wars',
+            appToken: 'b6de60a0-e030-48bb-a551-548372493523',
+            promoId: 'c7821fa7-6632-482c-9635-2bd5798585f9',
+            timing: 40000, // 40 seconds
+            attempts: 30,
         }
     };
 
